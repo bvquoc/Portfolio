@@ -6,20 +6,18 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
 } from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiFirebase, SiGo } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGo />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -34,19 +32,10 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <DiGit />
       </Col>
     </Row>
   );
