@@ -98,7 +98,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/bvquoc/Portfolio"
                 target="_blank"
@@ -107,7 +107,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
