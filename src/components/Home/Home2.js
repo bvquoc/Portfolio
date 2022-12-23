@@ -2,7 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillFacebook,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 function Home2() {
   return (
@@ -61,6 +66,16 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillLinkedin />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/bvquoc"
